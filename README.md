@@ -36,10 +36,6 @@ www.mchose.com.cn
 ```bash
 URL = "https://www.mchose.com.cn/#/detail?deviceName=MCHOSE+A7+V2+Ultra"
 ```
-### Copy the scripts to any folder you like and make scripts executable:
-```bash
-chmod +x mouse.py
-```
 ### Add to Steam Game Commands (change the directory based on where your scripts are):
 ```bash
 python3 ~/Scripts/mouse.py Performance %command%; python3 ~/Scripts/mouse.py Powersave

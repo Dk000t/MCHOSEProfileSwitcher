@@ -10,8 +10,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Check that the required argument has been passed
-if len(sys.argv) < 2:
-    print(f"USAGE: <{sys.argv[0]}> <[Performance|Powersave]>")
+if len(sys.argv) < 2 or sys.argv[1] not in ["Performance", "Powersave"]:
+    print(f"USAGE: {sys.argv[0]} [Performance|Powersave]")
     sys.exit(1)
 
 # Store the first command line argument
